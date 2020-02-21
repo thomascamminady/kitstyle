@@ -8,7 +8,16 @@ place `kitish.mplstyle` in `~/.config/matplotlib/stylelib/`
 In Python, do
 ```python
 import matplotlib.pyplot as plt
-
 plt.style.use("kitish")
-plt.plot([1,2,3],[0,1,0])
+
+fig,ax = plt.subplots()
+ax.plot([0,1,2],[1,2,1],label="cars")
+ax.plot([0,1,2],[2,1,2],label="bikes")
+ax.plot([0,1,2],[2,2,0],label="birds")
+ax.plot([0,1,2],[0,1,1],label="cats")
+plt.legend()
+ax.set_title(r"Something $\alpha+\beta=\gamma$.")
+ax.set_ylabel("Another label")
+ax.set_xlabel(r"Source Sans Pro is a nice font.")
+plt.savefig("example.png")
 ```
