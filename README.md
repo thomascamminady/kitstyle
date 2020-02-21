@@ -21,3 +21,6 @@ ax.set_ylabel("Another label")
 ax.set_xlabel(r"Source Sans Pro is a nice font.")
 plt.savefig("example.png")
 ```
+to get the following output:
+
+![Alt text](/example.png?raw=true "Example plot")
