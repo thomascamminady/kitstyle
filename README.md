@@ -24,3 +24,8 @@ plt.savefig("example.png")
 to get the following output:
 
 ![Alt text](/example.png?raw=true "Example plot")
+
+For comparison, here's the original plot when omitting `plt.style.use("kitish")`.
+![Alt text](/exampleold.png?raw=true "Standard example plot")
+
+
