@@ -2,7 +2,7 @@
 Use a nice KIT-ish theme for matplotlib plots.
 
 ## Install
-place `kitish.mplstyle` in `~/.config/matplotlib/stylelib/`
+Place `kitish.mplstyle` and `kitishnotex.mplstyle`  in `~/.config/matplotlib/stylelib/`
 
 ## Usage
 In Python, do
