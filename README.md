@@ -8,7 +8,7 @@ place `kitish.mplstyle` in `~/.config/matplotlib/stylelib/`
 In Python, do
 ```python
 import matplotlib.pyplot as plt
-plt.style.use("kitish")
+plt.style.use("kitish")                      #or "kitishnotex" to avoid text rendering with TeX.
 
 fig,ax = plt.subplots()
 ax.plot([0,1,2],[1,2,1],label="cars")
